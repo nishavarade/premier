@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+section{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    margin-top:20px;
+    
+}
+.one{
+    
+    border-right:2px solid black;
+    padding-right:2px;
+}
+.bgi{
+    margin-top: 20px;
+    background-image: url("https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1vZGVsfGVufDB8fDB8fHww");
+    width:100%;
+    height:600px;
+    background-repeat: no-repeat;
+    object-position: top;
+    position:absolute;
+    left:10%;
+    }
+
+h1{
+    z-index:100;
+    position: absolute;
+    left:60%;
+    color:white;
+    font-weight: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.pic{
+    display: flex;
+    justify-content: center;
+     gap:30px;
+     
+}
+.pic img{
+    border-radius: 100px;
+    border:0.8px solid grey;
+    box-shadow: 2px,2px,2px,2px,rgba(0,0,0,0.5) ;
+    object-fit: cover;
+}
+.line{
+    padding:30px;
+}
+.first{
+    margin:40px;
+    display: flex;
+    gap:70px;
+    object-fit: cover;
+}
+main{
+    display: flex;
+    gap:70px;
+    justify-content: center;
+}
+/* vogue/shot*/
+.abc{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left:33px;
+}
+.efg{
+    display: flex;
+    margin:50px;
+    gap:100px;
+}
+.hij{
+    font-size: 29px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.klm{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.klm img{
+    border: 0.8px solid grey;
+    border-radius: 100px;
+    margin:10px;
+    object-fit: cover;
+}
+    .col-3{
+        border-right:1px solid black;
+    }
+    .foot{
+        margin:40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:70px;
+    }
+    .x{
+    
+    }
+    .w{font-size: 25px;
+        
+    }
+    .y{
+        font-size: 25px;
+    
+    
+    
+    }
+    .z{
+        display:flex;
+        flex-direction: column;
+    
+        
+    }
